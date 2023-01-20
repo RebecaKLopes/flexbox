@@ -1,0 +1,32 @@
+*{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.container-flex{
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    max-width: 300px;
+}
+
+
+.item{
+    flex: 1;
+    background-color: rgb(245, 114, 81);
+    margin: 4px;
+    text-align: center;
+
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.nowrap{
+    flex-wrap: nowrap;
+}
+
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
